@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkquanxi=self.webpackChunkquanxi||[]).push([[630],{8711:e=>{e.exports=JSON.parse('{"title":"fdp","slug":"/category/fdp","permalink":"/quanxi/docs/category/fdp","navigation":{"previous":{"title":"config","permalink":"/quanxi/docs/category/config"},"next":{"title":"client","permalink":"/quanxi/docs/config/fdp/client"}}}')}}]);
