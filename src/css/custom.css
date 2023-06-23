@@ -136,7 +136,8 @@ body {
   font-size: 20px;
   border: none;
   border-radius: 5px;
-  color: white;
+  font-size: 20px;
+  color: var(--ifm-color-primary-dark);
   background-color: transparent;
   position: relative;
 }

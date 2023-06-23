@@ -12,6 +12,9 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero', styles.heroBanner)}>
       <div className="container">
+    <center>
+      <img className="idkimglogo" src='https://necakco.github.io/assest/avt-modified.png'/>
+    </center>
         <h1 className="logoheder hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
