@@ -32,9 +32,6 @@ export default function Home() {
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-      <center>
-        <img className="idkimglogo" src='https://necakco.github.io/assest/avt-modified.png'/>
-      </center>
       <HomepageHeader />
       <main>
       </main>
