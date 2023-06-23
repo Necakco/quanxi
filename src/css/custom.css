@@ -3,12 +3,22 @@
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
  */
- @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&display=swap');
+/* You can override the default Infima variables here. */
+html {
+  font-family: 'Comfortaa', cursive;
+}
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-code-font-size: 95%;
-  --ifm-.button1-border-color: var(--ifm-color-primary);
-  font-family: 'Comfortaa', cursive;
+  --ifm-button-border-color: var(--ifm-color-primary);
+
   /* search input */
   --ifm-navbar-search-input-background-color: var(--bright-black);
   --ifm-navbar-search-input-color: var(--primary-fg);
@@ -18,7 +28,7 @@
 
 html[data-theme='light'] {
   /* tokyonight day */
-  --primary-bg: #e1e2e7;
+  --primary-bg: #fff;
   --primary-fg: #414868;
   /* normal */
   --normal-black: #e9e9ed;
@@ -95,32 +105,51 @@ html[data-theme='dark'] {
   transition: background-color 400ms ease-in-out, fill 400ms ease-in-out;
 }
 
-html,
-body {
-  overflow-x: hidden !important;
+.logonho {
+  margin-top: 70px;
+  max-width: 200px;
 }
-
-.social {
-  display: flex;
+.fat1{
+  width: 120px;
+}
+.idkquizz{
+  background-image: url(https://moondecial-next.web.app/static/media/bg.fbd7e695220acf2e73dd.gif);  
   align-items: center;
-  gap: 1rem;
-  padding: 0;
+  justify-content: center;
+  background-repeat:no-repeat;
+  justify-content: center;
+  background-size: cover;
+}
+.mainquizz {
+  margin-top: 20px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.flex-container {
+  font-family: 'Comfortaa', cursive !important;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
 }
 
-.social path {
-  fill: var(--primary-fg);
+.conterse {
+  background-color: transparent;
+  padding: 20px;
+  border-radius: 20px;
+  width: 200px;
+  text-align: center;
 }
 
-.social:hover path {
-  fill: var(--ifm-color-primary);
-}
-
-@media screen and (max-width: 996px) {
-  .social {
-    display: none;
+@media screen and (max-width: 600px) {
+  .flex-container {
+    justify-content: center;
   }
 }
-
 .idkimglogo {
   max-width: 300px;
 }
