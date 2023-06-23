@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkquanxi=self.webpackChunkquanxi||[]).push([[8992],{4871:e=>{e.exports=JSON.parse('{"title":"setup","slug":"/category/setup","permalink":"/quanxi/docs/category/setup","navigation":{"previous":{"title":"about","permalink":"/quanxi/docs/about"},"next":{"title":"Motion Blur","permalink":"/quanxi/docs/category/motion-blur"}}}')}}]);

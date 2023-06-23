@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkquanxi=self.webpackChunkquanxi||[]).push([[4632],{1746:a=>{a.exports=JSON.parse('{"label":"hello","permalink":"/quanxi/blog/tags/hello","allTagsPath":"/quanxi/blog/tags","count":2}')}}]);
