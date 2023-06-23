@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkquanxi=self.webpackChunkquanxi||[]).push([[316],{9526:a=>{a.exports=JSON.parse('{"label":"facebook","permalink":"/quanxi/blog/tags/facebook","allTagsPath":"/quanxi/blog/tags","count":1}')}}]);
